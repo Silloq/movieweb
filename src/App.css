@@ -38,7 +38,7 @@
 }
 .card-grid.card-grid--tight {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr)); /* ✅ 5x5 layout */
+  grid-template-columns: repeat(5, minmax(0, 1fr)); 
   gap: 1.25rem;
 }
 

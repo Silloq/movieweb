@@ -50,12 +50,12 @@ export default function Home() {
         <div className="container header-inner">
           <div className="brand-and-nav">
             <h1 className="brand">CineStream</h1>
-            <nav className="main-nav">
-              <a href="#">Home</a>
+            {/* <nav className="main-nav">
+              <a href="#/">Home</a>
               <a href="#">Movies</a>
               <a href="#">TV Shows</a>
               <a href="#">New &amp; Popular</a>
-            </nav>
+            </nav> */}
           </div>
 
           <div className="header-actions">
@@ -134,34 +134,11 @@ export default function Home() {
           <div className="footer-grid">
             <div>
               <h4 className="brand brand--sm">CineStream</h4>
-              <p className="muted">The ultimate streaming experience with thousands of movies and TV shows.</p>
+              <p className="muted">The ultimate streaming experience with thousands of movies.</p>
             </div>
-            <div>
-              <h5 className="footer-head">Navigation</h5>
-              <ul className="link-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">TV Shows</a></li>
-                <li><a href="#">My List</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="footer-head">Support</h5>
-              <ul className="link-list">
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Devices</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="footer-head">Legal</h5>
-              <ul className="link-list">
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Cookie Policy</a></li>
-              </ul>
-            </div>
+            
+         
+           
           </div>
           <div className="footer-bottom">© 2024 CineStream. All rights reserved.</div>
         </div>
