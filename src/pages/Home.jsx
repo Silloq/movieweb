@@ -136,15 +136,7 @@ export default function Home() {
               <h4 className="brand brand--sm">CineStream</h4>
               <p className="muted">The ultimate streaming experience with thousands of movies and TV shows.</p>
             </div>
-            <div>
-              <h5 className="footer-head">Navigation</h5>
-              <ul className="link-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">TV Shows</a></li>
-                <li><a href="#">My List</a></li>
-              </ul>
-            </div>
+        
             <div>
               <h5 className="footer-head">Support</h5>
               <ul className="link-list">
